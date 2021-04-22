@@ -3,7 +3,7 @@ async function getData(){
       method: "GET",
       redirect: "follow",
     };
-    let result = await fetch("http://ip172-18-0-91-c20dr8fqf8u00085ofc0-3000.direct.labs.play-with-docker.com/baojia2", requestOptions);
+    let result = await fetch("ssh.ip172-18-0-91-c20dr8fqf8u00085ofc0-3000.direct.labs.play-with-docker.com/baojia2", requestOptions);
     let data = result.json();
     return data;
 }
